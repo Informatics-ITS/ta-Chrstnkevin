@@ -1,75 +1,50 @@
 # 🏁 Tugas Akhir (TA) - Final Project
-
-**Nama Mahasiswa**: [Nama Lengkap]  
-**NRP**: [Nomor Registrasi Pokok]  
-**Judul TA**: [Judul Tugas Akhir]  
-**Dosen Pembimbing**: [Nama Dosen]  
-**Dosen Ko-pembimbing**: [Nama Dosen]
+  
+**Nama Mahasiswa**: Christian Kevin Emor  
+**NRP**: 5025211153
+**Judul TA**: Optimalisasi Pengalaman Pengguna Sistem Dapur Massive Open Online Course (MOOC) untuk Monitoring Pengembangan Modul Pembelajaran Online dengan Pendekatan User Centered Design  
+**Dosen Pembimbing**: Siska Arifiani, S.Kom., M.Kom.  
+**Dosen Ko-pembimbing**: Wijayanti Nurul Khotimah, S.Kom., M.Sc., Ph.D.  
 
 ---
 
 ## 📺 Demo Aplikasi  
-Embed video demo di bawah ini (ganti `VIDEO_ID` dengan ID video YouTube Anda):  
 
-[![Demo Aplikasi](https://i.ytimg.com/vi/zIfRMTxRaIs/maxresdefault.jpg)](https://www.youtube.com/watch?v=VIDEO_ID)  
+[![Demo Aplikasi](https://github.com/user-attachments/assets/a3323696-034b-49ef-8001-9180a40a8599)](https://youtu.be/SMrxP_PlWpk)  
 *Klik gambar di atas untuk menonton demo*
 
 ---
 
-*Konten selanjutnya hanya merupakan contoh awalan yang baik. Anda dapat berimprovisasi bila diperlukan.*
-
 ## 🛠 Panduan Instalasi & Menjalankan Software  
 
 ### Prasyarat  
-- Daftar dependensi (contoh):
-  - Python 3.10+
+  - Next.js v15.3.2+
+  - React v18.3.1+
   - Node.js v18+
-  - MySQL 8.0
-  - [Lainnya...]
+  - npm v9+ atau pnpm (opsional)
+  - TypeScript v5+
 
 ### Langkah-langkah  
 1. **Clone Repository**  
    ```bash
-   git clone https://github.com/Informatics-ITS/TA.git
+   git clone https://github.com/Informatics-ITS/ta-chrstnkevin.git
    ```
 2. **Instalasi Dependensi**
    ```bash
-   cd [folder-proyek]
-   pip install -r requirements.txt  # Contoh untuk Python
-   npm install  # Contoh untuk Node.js
+   cd ta-chrstnkevin
+   npm i
    ```
-3. **Konfigurasi**
-- Salin/rename file .env.example menjadi .env
-- Isi variabel lingkungan sesuai kebutuhan (database, API key, dll.)
 4. **Jalankan Aplikasi**
    ```bash
-   python main.py  # Contoh untuk Python
-   npm start      # Contoh untuk Node.js
+   npm run dev
    ```
-5. Buka browser dan kunjungi: `http://localhost:3000` (sesuaikan dengan port proyek Anda)
-
----
-
-## 📚 Dokumentasi Tambahan
-
-- [![Dokumentasi API]](docs/api.md)
-- [![Diagram Arsitektur]](docs/architecture.png)
-- [![Struktur Basis Data]](docs/database_schema.sql)
-
----
-
-## ✅ Validasi
-
-Pastikan proyek memenuhi kriteria berikut sebelum submit:
-- Source code dapat di-build/run tanpa error
-- Video demo jelas menampilkan fitur utama
-- README lengkap dan terupdate
-- Tidak ada data sensitif (password, API key) yang ter-expose
+5. Buka browser dan kunjungi: `http://localhost:3000/component` 
 
 ---
 
 ## ⁉️ Pertanyaan?
 
-Hubungi:
-- Penulis: [email@mahasiswa]
-- Pembimbing Utama: [email@pembimbing]
+Silakan hubungi:
+
+* Penulis: [kevinemor10@gmail.com](kevinemor10@gmail.com)
+* Pembimbing: [siska@its.ac.id](mailto:siska@its.ac.id)
